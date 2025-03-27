@@ -1,0 +1,63 @@
+attachments/
+./attachments/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+*.sqlite3
+/media/
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Static and media files
+/staticfiles/
+/static/
+*.bak
+/media/
+
+# Secret files
+.env
+config.json
+
+# Migrations (optional, if you don’t want to track them)
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Pytest, Coverage & Testing Reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+.cache
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Node (if using frontend with React/Vue)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Gunicorn & Deployment Logs
+gunicorn.log
+gunicorn.err
+
+# AWS & Cloud Services
+*.pem
+*.key
